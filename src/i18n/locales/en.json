@@ -1,0 +1,37 @@
+{
+  "nav": {
+    "home": "Home",
+    "menu": "Menu",
+    "locations": "Locations",
+    "book": "Book Now"
+  },
+  "locations": {
+    "title": "Our Gastronomic Journey",
+    "subtitle": "Explore our journey through extraordinary destinations, from past experiences to future culinary adventures",
+    "current": "Current",
+    "completed": "Experience completed",
+    "moreInfo": "More information",
+    "bookNow": "Book now"
+  },
+  "menu": {
+    "title": "Our Menu",
+    "subtitle": "Each dish tells a story of its origin, prepared with local ingredients and techniques that highlight the natural flavors of each location",
+    "categories": {
+      "starters": "Starters",
+      "mainCourses": "Main Courses",
+      "desserts": "Desserts"
+    },
+    "modal": {
+      "mainIngredients": "Main Ingredients",
+      "orderNow": "Order now",
+      "prepTime": "Preparation time"
+    }
+  },
+  "common": {
+    "close": "Close",
+    "price": "Price",
+    "duration": "Duration",
+    "capacity": "Capacity",
+    "location": "Location"
+  }
+}
