@@ -1,40 +1,21 @@
-// ... (código existente) ...
+import i18n from 'i18next';
+import { initReactI18next } from 'react-i18next';
+import LanguageDetector from 'i18next-browser-languagedetector';
+import es from './locales/es.json';
+import en from './locales/en.json';
 
-const resources = {
-  es: {
-    translation: {
-      hero: {
-        title: "Gastronomía Extraordinaria",
-        subtitle: "en Entornos Únicos",
-        description: "Experimenta una gastronomía exclusiva en ubicaciones remotas y espectaculares. Un nuevo destino cada mes, una experiencia inolvidable en cada visita.",
-        cta: "Descubrir Próxima Ubicación",
-        menuButton: "Ver Menú",
-        features: {
-          altitude: "Experiencias gastronómicas a 2.500m de altura",
-          monthly: "Un nuevo destino cada mes",
-          intimate: "Grupos reducidos de máximo 20 comensales"
-        }
-      },
-      // ... (resto de traducciones)
+i18n
+  .use(LanguageDetector)
+  .use(initReactI18next)
+  .init({
+    resources: {
+      es: { translation: es },
+      en: { translation: en }
+    },
+    fallbackLng: 'es',
+    interpolation: {
+      escapeValue: false
     }
-  },
-  en: {
-    translation: {
-      hero: {
-        title: "Extraordinary Dining",
-        subtitle: "in Nature's Finest",
-        description: "Experience exclusive gastronomy in remote, breathtaking locations. A new destination every month, an unforgettable experience in every visit.",
-        cta: "Discover Next Location",
-        menuButton: "View Menu",
-        features: {
-          altitude: "Dining experiences at 2,500m altitude",
-          monthly: "A new destination each month",
-          intimate: "Small groups of up to 20 guests"
-        }
-      },
-      // ... (resto de traducciones)
-    }
-  }
-};
+  });
 
-// ... (resto del código)
+export default i18n;

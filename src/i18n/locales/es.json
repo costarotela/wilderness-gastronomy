@@ -1,37 +1,18 @@
 {
   "nav": {
+    "brand": "Wilderness Gastronomy",
     "home": "Inicio",
     "menu": "Menú",
     "locations": "Ubicaciones",
-    "book": "Reservar"
+    "book": "Reservar",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú"
   },
-  "locations": {
-    "title": "Nuestro Viaje Gastronómico",
-    "subtitle": "Explora nuestro recorrido por los destinos más extraordinarios, desde experiencias pasadas hasta futuras aventuras culinarias",
-    "current": "Actual",
-    "completed": "Experiencia completada",
-    "moreInfo": "Más información",
-    "bookNow": "Reservar ahora"
-  },
-  "menu": {
-    "title": "Nuestro Menú",
-    "subtitle": "Cada plato cuenta una historia de su origen, preparado con ingredientes locales y técnicas que resaltan los sabores naturales de cada ubicación",
-    "categories": {
-      "starters": "Entradas",
-      "mainCourses": "Platos Principales",
-      "desserts": "Postres"
-    },
-    "modal": {
-      "mainIngredients": "Ingredientes Principales",
-      "orderNow": "Ordenar ahora",
-      "prepTime": "Tiempo de preparación"
-    }
-  },
-  "common": {
-    "close": "Cerrar",
-    "price": "Precio",
-    "duration": "Duración",
-    "capacity": "Capacidad",
-    "location": "Ubicación"
+  "booking": {
+    "title": "Reserva tu Experiencia",
+    "step": "Paso",
+    "next": "Siguiente",
+    "previous": "Anterior",
+    "confirm": "Confirmar"
   }
 }

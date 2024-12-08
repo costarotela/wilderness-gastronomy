@@ -1,15 +1,19 @@
 import { useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
-import { useTranslation } from 'react-i18next';
+import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { FiMenu, FiX } from 'react-icons/fi';
 import LanguageSelector from './LanguageSelector';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const navigate = useNavigate();
   const location = useLocation();
-  const { t } = useTranslation();
 
   const isActive = (path) => location.pathname === path;
+
+  const handleBooking = () => {
+    navigate('/booking');
+    setIsOpen(false);
+  };
 
   return (
     <nav className="fixed w-full bg-white/90 backdrop-blur-sm z-50 shadow-sm">
@@ -24,29 +28,36 @@ export default function Navbar() {
               to="/" 
               className={`${isActive('/') ? 'text-primary font-medium' : 'text-gray-700'} hover:text-primary transition-colors`}
             >
-              {t('nav.home')}
+              Inicio
             </Link>
             <Link 
               to="/menu" 
               className={`${isActive('/menu') ? 'text-primary font-medium' : 'text-gray-700'} hover:text-primary transition-colors`}
             >
-              {t('nav.menu')}
+              Menú
             </Link>
             <Link 
               to="/locations" 
               className={`${isActive('/locations') ? 'text-primary font-medium' : 'text-gray-700'} hover:text-primary transition-colors`}
             >
-              {t('nav.locations')}
+              Ubicaciones
             </Link>
             <LanguageSelector />
-            <button className="px-4 py-2 rounded-md bg-primary text-white hover:bg-primary/90 transition-colors">
-              {t('nav.book')}
+            <button 
+              onClick={handleBooking}
+              className="px-4 py-2 rounded-md bg-primary text-white hover:bg-primary/90 transition-colors"
+            >
+              Reservar
             </button>
           </div>
 
           <div className="md:hidden flex items-center gap-4">
             <LanguageSelector />
-            <button onClick={() => setIsOpen(!isOpen)} className="text-gray-700">
+            <button 
+              onClick={() => setIsOpen(!isOpen)} 
+              className="text-gray-700"
+              aria-label={isOpen ? 'Cerrar menú' : 'Abrir menú'}
+            >
               {isOpen ? <FiX size={24} /> : <FiMenu size={24} />}
             </button>
           </div>
@@ -60,24 +71,27 @@ export default function Navbar() {
                 className={`block px-3 py-2 rounded-md ${isActive('/') ? 'text-primary bg-primary/5' : 'text-gray-700'}`}
                 onClick={() => setIsOpen(false)}
               >
-                {t('nav.home')}
+                Inicio
               </Link>
               <Link 
                 to="/menu" 
                 className={`block px-3 py-2 rounded-md ${isActive('/menu') ? 'text-primary bg-primary/5' : 'text-gray-700'}`}
                 onClick={() => setIsOpen(false)}
               >
-                {t('nav.menu')}
+                Menú
               </Link>
               <Link 
                 to="/locations" 
                 className={`block px-3 py-2 rounded-md ${isActive('/locations') ? 'text-primary bg-primary/5' : 'text-gray-700'}`}
                 onClick={() => setIsOpen(false)}
               >
-                {t('nav.locations')}
+                Ubicaciones
               </Link>
-              <button className="w-full text-left px-3 py-2 text-primary font-medium">
-                {t('nav.book')}
+              <button 
+                onClick={handleBooking}
+                className="w-full text-left px-3 py-2 text-primary font-medium hover:bg-primary/5 rounded-md"
+              >
+                Reservar
               </button>
             </div>
           </div>
