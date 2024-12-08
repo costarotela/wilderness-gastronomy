@@ -1,65 +1,89 @@
 {
-  "nav": {
-    "brand": "Wilderness Gastronomy",
-    "home": "Inicio",
-    "menu": "Menú",
-    "locations": "Ubicaciones",
-    "book": "Reservar",
-    "openMenu": "Abrir menú",
-    "closeMenu": "Cerrar menú"
-  },
-  "hero": {
-    "title": "Gastronomía de Altura",
-    "subtitle": "en Estado Puro",
-    "description": "Vive una experiencia gastronómica única donde la cocina de autor se fusiona con los paisajes más impresionantes de la cordillera.",
-    "features": {
-      "altitude": "Experiencias exclusivas a más de 2.500 metros de altura",
-      "monthly": "Eventos mensuales en ubicaciones únicas de los Andes",
-      "intimate": "Grupos reducidos de máximo 12 comensales"
-    },
-    "cta": "Explorar Destinos",
-    "menuButton": "Descubrir Menú"
-  },
-  "gastronomy": {
-    "title": "Sabores de la Montaña",
-    "subtitle": "Ingredientes y Técnicas Ancestrales",
-    "description": "Nuestra propuesta gastronómica rescata ingredientes nativos y técnicas tradicionales de los pueblos de altura, presentados con un toque contemporáneo.",
-    "features": {
-      "ingredients": "Productos orgánicos de agricultura de altura",
-      "techniques": "Métodos de cocción tradicionales andinos",
-      "pairing": "Selección de vinos de viñedos de montaña"
-    },
-    "highlightDish": {
-      "name": "Cordero de Altura",
-      "description": "Cordero criado a más de 3.000 metros, cocido a baja temperatura con hierbas aromáticas silvestres y vegetales de altura.",
-      "type": "Plato Insignia",
-      "details": "Ver detalles →"
-    }
-  },
-  "experience": {
-    "title": "Experiencias Extraordinarias",
-    "subtitle": "Más que una cena, una aventura gastronómica",
-    "description": "Descubre lo que nuestros invitados dicen sobre sus experiencias únicas en nuestros destinos gastronómicos de altura.",
-    "features": {
-      "location": {
-        "title": "Ubicaciones Exclusivas",
-        "description": "Espacios cuidadosamente seleccionados por su belleza natural y accesibilidad"
+  "menu": {
+    "title": "Nuestra Propuesta Gastronómica",
+    "subtitle": "Una selección cuidadosa de sabores que representan la esencia de la cordillera",
+    "sections": {
+      "starters": {
+        "title": "Entradas",
+        "items": [
+          {
+            "id": 1,
+            "name": "Carpaccio de Ciervo Patagónico",
+            "description": "Finas láminas de ciervo curado en hierbas de altura, brotes orgánicos y vinagreta de frutos silvestres",
+            "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&q=80",
+            "prepTime": "25 minutos",
+            "dietaryInfo": "Sin gluten | Alto en proteínas",
+            "pairingSuggestion": "Malbec de altura",
+            "allergens": ["Mostaza", "Frutos secos"],
+            "origin": "Patagonia Argentina"
+          },
+          {
+            "id": 2,
+            "name": "Crema de Morillas Silvestres",
+            "description": "Hongos morillas recolectados en temporada, crema de papas andinas y aceite de trufa negra",
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&q=80",
+            "prepTime": "30 minutos",
+            "dietaryInfo": "Vegetariano | Sin gluten",
+            "pairingSuggestion": "Chardonnay de viñedos de altura",
+            "allergens": ["Lácteos"],
+            "origin": "Bosques Patagónicos"
+          }
+        ]
       },
-      "events": {
-        "title": "Eventos Únicos",
-        "description": "Cada experiencia es irrepetible, diseñada según la temporada y ubicación"
+      "mains": {
+        "title": "Platos Principales",
+        "items": [
+          {
+            "id": 3,
+            "name": "Cordero de Altura 63°",
+            "description": "Cordero criado a 3000m, cocido a baja temperatura durante 63 horas, puré de tubérculos andinos y vegetales de estación",
+            "image": "https://images.unsplash.com/photo-1514516816066-12d807fdd43e?auto=format&fit=crop&q=80",
+            "prepTime": "63 horas",
+            "dietaryInfo": "Sin gluten",
+            "pairingSuggestion": "Pinot Noir de altura",
+            "allergens": ["Lácteos"],
+            "origin": "Andes Patagónicos"
+          },
+          {
+            "id": 4,
+            "name": "Trucha Arcoíris de Arroyo",
+            "description": "Trucha salvaje de arroyos de montaña, cocida en hojas de nalca, con risotto de quínoa y espárragos silvestres",
+            "image": "https://images.unsplash.com/photo-1534766555764-ce878a5e3a2b?auto=format&fit=crop&q=80",
+            "prepTime": "45 minutos",
+            "dietaryInfo": "Rico en Omega-3 | Sin gluten",
+            "pairingSuggestion": "Sauvignon Blanc de altura",
+            "allergens": ["Pescado", "Lácteos"],
+            "origin": "Ríos Patagónicos"
+          }
+        ]
       },
-      "service": {
-        "title": "Servicio Personalizado",
-        "description": "Atención dedicada con un máximo de 12 comensales por evento"
+      "desserts": {
+        "title": "Postres",
+        "items": [
+          {
+            "id": 5,
+            "name": "Texturas de Chocolate y Calafate",
+            "description": "Mousse de chocolate Patagonia 70%, helado de calafate silvestre, tierra de chocolate y gel de frutos rojos",
+            "image": "https://images.unsplash.com/photo-1624353365286-3f8d62daad51?auto=format&fit=crop&q=80",
+            "prepTime": "40 minutos",
+            "dietaryInfo": "Vegetariano",
+            "pairingSuggestion": "Late Harvest de altura",
+            "allergens": ["Lácteos", "Huevos", "Frutos secos"],
+            "origin": "Fusión Andina-Patagónica"
+          },
+          {
+            "id": 6,
+            "name": "Trilogía de Manzanas Silvestres",
+            "description": "Tarta tibia de manzanas silvestres, sorbete de manzana verde y espuma de sidra artesanal",
+            "image": "https://images.unsplash.com/photo-1587314168485-3236d6710814?auto=format&fit=crop&q=80",
+            "prepTime": "35 minutos",
+            "dietaryInfo": "Vegetariano",
+            "pairingSuggestion": "Sidra de altura artesanal",
+            "allergens": ["Gluten", "Lácteos", "Huevos"],
+            "origin": "Valle Encantado, Patagonia"
+          }
+        ]
       }
     }
-  },
-  "booking": {
-    "title": "Reserva tu Experiencia",
-    "step": "Paso",
-    "next": "Siguiente",
-    "previous": "Anterior",
-    "confirm": "Confirmar"
   }
 }

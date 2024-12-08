@@ -1,65 +1,89 @@
 {
-  "nav": {
-    "brand": "Wilderness Gastronomy",
-    "home": "Home",
-    "menu": "Menu",
-    "locations": "Locations",
-    "book": "Book Now",
-    "openMenu": "Open menu",
-    "closeMenu": "Close menu"
-  },
-  "hero": {
-    "title": "High-Altitude Gastronomy",
-    "subtitle": "in Its Purest Form",
-    "description": "Experience unique gastronomy where signature cuisine merges with the most impressive mountain landscapes.",
-    "features": {
-      "altitude": "Exclusive experiences at over 2,500 meters altitude",
-      "monthly": "Monthly events in unique Andes locations",
-      "intimate": "Small groups of maximum 12 guests"
-    },
-    "cta": "Explore Destinations",
-    "menuButton": "Discover Menu"
-  },
-  "gastronomy": {
-    "title": "Mountain Flavors",
-    "subtitle": "Ancestral Ingredients and Techniques",
-    "description": "Our gastronomic proposal rescues native ingredients and traditional techniques from highland communities, presented with a contemporary twist.",
-    "features": {
-      "ingredients": "Organic high-altitude farming products",
-      "techniques": "Traditional Andean cooking methods",
-      "pairing": "Mountain vineyard wine selection"
-    },
-    "highlightDish": {
-      "name": "Highland Lamb",
-      "description": "Lamb raised at over 3,000 meters, slow-cooked with wild aromatic herbs and highland vegetables.",
-      "type": "Signature Dish",
-      "details": "View details →"
-    }
-  },
-  "experience": {
-    "title": "Extraordinary Experiences",
-    "subtitle": "More than dinner, a gastronomic adventure",
-    "description": "Discover what our guests say about their unique experiences in our high-altitude gastronomic destinations.",
-    "features": {
-      "location": {
-        "title": "Exclusive Locations",
-        "description": "Spaces carefully selected for their natural beauty and accessibility"
+  "menu": {
+    "title": "Our Gastronomic Proposal",
+    "subtitle": "A careful selection of flavors that represent the essence of the mountain range",
+    "sections": {
+      "starters": {
+        "title": "Starters",
+        "items": [
+          {
+            "id": 1,
+            "name": "Patagonian Deer Carpaccio",
+            "description": "Thin slices of herb-cured deer, organic sprouts and wild berry vinaigrette",
+            "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&q=80",
+            "prepTime": "25 minutes",
+            "dietaryInfo": "Gluten-free | High protein",
+            "pairingSuggestion": "High-altitude Malbec",
+            "allergens": ["Mustard", "Tree nuts"],
+            "origin": "Patagonia Argentina"
+          },
+          {
+            "id": 2,
+            "name": "Wild Morel Mushroom Cream",
+            "description": "Seasonal morel mushrooms, Andean potato cream and black truffle oil",
+            "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&q=80",
+            "prepTime": "30 minutes",
+            "dietaryInfo": "Vegetarian | Gluten-free",
+            "pairingSuggestion": "High-altitude Chardonnay",
+            "allergens": ["Dairy"],
+            "origin": "Patagonian Forests"
+          }
+        ]
       },
-      "events": {
-        "title": "Unique Events",
-        "description": "Each experience is unrepeatable, designed according to season and location"
+      "mains": {
+        "title": "Main Courses",
+        "items": [
+          {
+            "id": 3,
+            "name": "63° Highland Lamb",
+            "description": "Lamb raised at 3000m, slow-cooked for 63 hours, Andean tuber purée and seasonal vegetables",
+            "image": "https://images.unsplash.com/photo-1514516816066-12d807fdd43e?auto=format&fit=crop&q=80",
+            "prepTime": "63 hours",
+            "dietaryInfo": "Gluten-free",
+            "pairingSuggestion": "High-altitude Pinot Noir",
+            "allergens": ["Dairy"],
+            "origin": "Patagonian Andes"
+          },
+          {
+            "id": 4,
+            "name": "Stream Rainbow Trout",
+            "description": "Wild mountain stream trout, cooked in nalca leaves, with quinoa risotto and wild asparagus",
+            "image": "https://images.unsplash.com/photo-1534766555764-ce878a5e3a2b?auto=format&fit=crop&q=80",
+            "prepTime": "45 minutes",
+            "dietaryInfo": "Omega-3 rich | Gluten-free",
+            "pairingSuggestion": "High-altitude Sauvignon Blanc",
+            "allergens": ["Fish", "Dairy"],
+            "origin": "Patagonian Rivers"
+          }
+        ]
       },
-      "service": {
-        "title": "Personalized Service",
-        "description": "Dedicated attention with a maximum of 12 guests per event"
+      "desserts": {
+        "title": "Desserts",
+        "items": [
+          {
+            "id": 5,
+            "name": "Chocolate and Calafate Textures",
+            "description": "70% Patagonia chocolate mousse, wild calafate ice cream, chocolate soil and red fruit gel",
+            "image": "https://images.unsplash.com/photo-1624353365286-3f8d62daad51?auto=format&fit=crop&q=80",
+            "prepTime": "40 minutes",
+            "dietaryInfo": "Vegetarian",
+            "pairingSuggestion": "High-altitude Late Harvest",
+            "allergens": ["Dairy", "Eggs", "Tree nuts"],
+            "origin": "Andean-Patagonian Fusion"
+          },
+          {
+            "id": 6,
+            "name": "Wild Apple Trilogy",
+            "description": "Warm wild apple tart, green apple sorbet and artisanal cider foam",
+            "image": "https://images.unsplash.com/photo-1587314168485-3236d6710814?auto=format&fit=crop&q=80",
+            "prepTime": "35 minutes",
+            "dietaryInfo": "Vegetarian",
+            "pairingSuggestion": "Artisanal highland cider",
+            "allergens": ["Gluten", "Dairy", "Eggs"],
+            "origin": "Enchanted Valley, Patagonia"
+          }
+        ]
       }
     }
-  },
-  "booking": {
-    "title": "Book your Experience",
-    "step": "Step",
-    "next": "Next",
-    "previous": "Previous",
-    "confirm": "Confirm"
   }
 }
