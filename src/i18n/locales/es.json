@@ -8,6 +8,18 @@
     "openMenu": "Abrir menú",
     "closeMenu": "Cerrar menú"
   },
+  "hero": {
+    "title": "Experiencias Gastronómicas",
+    "subtitle": "en la Naturaleza",
+    "description": "Descubre una experiencia culinaria única donde la alta cocina se encuentra con los paisajes más impresionantes del mundo.",
+    "features": {
+      "altitude": "Experiencias a más de 2000 metros de altura",
+      "monthly": "Eventos mensuales en ubicaciones exclusivas",
+      "intimate": "Grupos reducidos de máximo 20 personas"
+    },
+    "cta": "Descubrir Ubicaciones",
+    "menuButton": "Ver Menú"
+  },
   "booking": {
     "title": "Reserva tu Experiencia",
     "step": "Paso",

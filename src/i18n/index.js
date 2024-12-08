@@ -15,6 +15,9 @@ i18n
     fallbackLng: 'es',
     interpolation: {
       escapeValue: false
+    },
+    detection: {
+      order: ['navigator']
     }
   });
 
