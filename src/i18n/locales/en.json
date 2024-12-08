@@ -8,6 +8,53 @@
     "openMenu": "Open menu",
     "closeMenu": "Close menu"
   },
+  "hero": {
+    "title": "High-Altitude Gastronomy",
+    "subtitle": "in Its Purest Form",
+    "description": "Experience unique gastronomy where signature cuisine merges with the most impressive mountain landscapes.",
+    "features": {
+      "altitude": "Exclusive experiences at over 2,500 meters altitude",
+      "monthly": "Monthly events in unique Andes locations",
+      "intimate": "Small groups of maximum 12 guests"
+    },
+    "cta": "Explore Destinations",
+    "menuButton": "Discover Menu"
+  },
+  "gastronomy": {
+    "title": "Mountain Flavors",
+    "subtitle": "Ancestral Ingredients and Techniques",
+    "description": "Our gastronomic proposal rescues native ingredients and traditional techniques from highland communities, presented with a contemporary twist.",
+    "features": {
+      "ingredients": "Organic high-altitude farming products",
+      "techniques": "Traditional Andean cooking methods",
+      "pairing": "Mountain vineyard wine selection"
+    },
+    "highlightDish": {
+      "name": "Highland Lamb",
+      "description": "Lamb raised at over 3,000 meters, slow-cooked with wild aromatic herbs and highland vegetables.",
+      "type": "Signature Dish",
+      "details": "View details →"
+    }
+  },
+  "experience": {
+    "title": "Extraordinary Experiences",
+    "subtitle": "More than dinner, a gastronomic adventure",
+    "description": "Discover what our guests say about their unique experiences in our high-altitude gastronomic destinations.",
+    "features": {
+      "location": {
+        "title": "Exclusive Locations",
+        "description": "Spaces carefully selected for their natural beauty and accessibility"
+      },
+      "events": {
+        "title": "Unique Events",
+        "description": "Each experience is unrepeatable, designed according to season and location"
+      },
+      "service": {
+        "title": "Personalized Service",
+        "description": "Dedicated attention with a maximum of 12 guests per event"
+      }
+    }
+  },
   "booking": {
     "title": "Book your Experience",
     "step": "Step",
