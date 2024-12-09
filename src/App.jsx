@@ -1,6 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
-import { I18nextProvider } from 'react-i18next'; // Importamos I18nextProvider
-import i18n from './i18n'; // Importamos la configuración
+import { I18nextProvider } from 'react-i18next';
+import i18n from './i18n';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Menu from './pages/Menu';
